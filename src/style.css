@@ -1,48 +1,41 @@
 @font-face {
 	font-family: Arial;
 	src:
-		local('texgyreheros-regular'),
-		url('chrome-extension://__MSG_@@extension_id__/fonts/texgyreheros-regular.woff');
+		local('Segoe UI'), local('Ubuntu'), local('Calibri');
 }
 
 @font-face {
 	font-family: Verdana;
 	src: 
-		local('texgyreheros-regular'),
-		url('chrome-extension://__MSG_@@extension_id__/fonts/texgyreheros-regular.woff');
+		local('Segoe UI'), local('Ubuntu'), local('Calibri');
 }
 
 @font-face {
 	font-family: Tahoma;
 	src:
-		local('texgyreheros-regular'),
-		url('chrome-extension://__MSG_@@extension_id__/fonts/texgyreheros-regular.woff');
+		local('Segoe UI'), local('Ubuntu'), local('Calibri');
 }
 
 @font-face {
 	font-family: Helvetica;
 	src:
-		local('texgyreheros-regular'),
-		url('chrome-extension://__MSG_@@extension_id__/fonts/texgyreheros-regular.woff');
+		local('Segoe UI'), local('Ubuntu'), local('Calibri');
 }
 
 @font-face {
 	font-family: Helvetica Neue;
 	src:
-		local('texgyreheros-regular'),
-		url('chrome-extension://__MSG_@@extension_id__/fonts/texgyreheros-regular.woff');
+		local('Segoe UI'), local('Ubuntu'), local('Calibri');
 }
 
 @font-face {
 	font-family: -apple-system;
 	src:
-		local('texgyreheros-regular'),
-		url('chrome-extension://__MSG_@@extension_id__/fonts/texgyreheros-regular.woff');
+		local('Segoe UI'), local('Ubuntu'), local('Calibri');
 }
 
 @font-face {
 	font-family: sans-serif;
 	src:
-		local('texgyreheros-regular'),
-		url('chrome-extension://__MSG_@@extension_id__/fonts/texgyreheros-regular.woff');
+		local('Segoe UI'), local('Ubuntu'), local('Calibri');
 }
