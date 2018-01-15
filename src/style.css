@@ -1,41 +1,80 @@
+/*Substitute some fonts that don't look to good on hi-dpi displays*/
+
+/*Make sure to enumerate all possible font weights*/
+
+/*Verdana comes in regular and bold only*/
+@font-face {
+    font-family: Verdana;
+    src: local('Segoe UI');
+}
+
+@font-face {
+    font-family: 'Verdana Bold';
+    src: local('Segoe UI Semibold');
+}
+
+@font-face {
+    font-family: 'Verdana';
+    font-weight: bold;
+    src: local('Segoe UI Semibold');
+}
+
+/*Arial is expressly designed as Helvetica drop-in */
 @font-face {
 	font-family: Arial;
 	src:
-		local('Segoe UI'), local('Ubuntu'), local('Calibri');
+		local('Segoe UI');
 }
 
 @font-face {
-	font-family: Verdana;
-	src: 
-		local('Segoe UI'), local('Ubuntu'), local('Calibri');
+    font-family: Arial;
+    font-weight: 200;
+    src: local('Segoe UI Semilight');
 }
 
 @font-face {
-	font-family: Tahoma;
-	src:
-		local('Segoe UI'), local('Ubuntu'), local('Calibri');
+    font-family: Arial;
+    font-weight: 300;
+    src: local('Segoe UI Light');
 }
 
 @font-face {
-	font-family: Helvetica;
-	src:
-		local('Segoe UI'), local('Ubuntu'), local('Calibri');
+    font-family: Arial;
+    font-weight: 400;
+    src: local('Segoe UI');
 }
 
 @font-face {
-	font-family: Helvetica Neue;
-	src:
-		local('Segoe UI'), local('Ubuntu'), local('Calibri');
+	font-family: Arial;
+	font-weight: 600;
+	src: local('Segoe UI Semibold');
 }
 
 @font-face {
-	font-family: -apple-system;
-	src:
-		local('Segoe UI'), local('Ubuntu'), local('Calibri');
+    font-family: Arial;
+    font-weight: 700;
+    src: local('Segoe UI Bold');
 }
 
 @font-face {
-	font-family: sans-serif;
-	src:
-		local('Segoe UI'), local('Ubuntu'), local('Calibri');
+    font-family: 'Arial Bold';
+    font-weight: 700;
+    src: local('Segoe UI Bold');
+}
+
+@font-face {
+    font-family: Arial;
+    font-weight: 800;
+    src: local('Segoe UI Black');
+}
+
+@font-face {
+    font-family: Arial;
+    font-weight: 900;
+    src: local('Segoe UI Black');
+}
+
+@font-face {
+    font-family: 'Arial Black';
+    src: local('Segoe UI Black');
 }
